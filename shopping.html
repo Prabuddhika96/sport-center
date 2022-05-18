@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sport Center-Shopping</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="items.html">Items Page</a></li>
+                <li><a href="shopping.html">Online Shopping Form</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="parallax">
+        <h1>Sport Center</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est necessitatibus odit blanditiis culpa similiqu</p>
+    </div>
+
+    <div class="Latest-News-Events background-odd">
+        <h1>Online Shoping form</h1>
+        <p>See the latest news, events & happenings at Sport Center below</p>
+
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Properties</th>
+                <th>Units</th>
+                <th>Cost ($)</th>
+            </tr>
+
+            <!-- cricket -->
+            <tr>
+                <td>
+                    <input type="checkbox" id="cricket_bat_check" name="cricket bat" value="cricket bat">
+                    <label for="cricket bat"> Cricket Bat</label>
+                </td>
+                <td>
+                    <input type="radio" name="cricket_bat_radio" value="100">
+                    <label>Low Quality - $100</label><br>
+                    <input type="radio" name="cricket_bat_radio" value="200">
+                    <label>Medium Quality - $200</label><br>
+                    <input type="radio" name="cricket_bat_radio" value="300">
+                    <label>High Quality - $300</label><br>
+                    <input type="radio" name="cricket_bat_radio" value="0" checked="checked">
+                    <label>None</label>
+                </td>
+                <td>
+                    <select id="cricket_bat_option">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+                <td>
+                    <p id="cricket_price"></p>
+                </td>
+            </tr>
+
+
+            <!-- badminton -->
+            <tr>
+                <td>
+                    <input type="checkbox" id="badminton_check" name="badminton bat" value="badminton bat">
+                    <label for="badminton bat"> Badminton</label>
+                </td>
+                <td>
+                    <input type="radio" name="badminton_radio" value="100">
+                    <label>Low Quality - $100</label><br>
+                    <input type="radio" name="badminton_radio" value="200">
+                    <label>Medium Quality - $200</label><br>
+                    <input type="radio" name="badminton_radio" value="300">
+                    <label>High Quality - $300</label><br>
+                    <input type="radio" name="badminton_radio" value="0" checked="checked">
+                    <label>None</label>
+                </td>
+                <td>
+                    <select id="badminton_option">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+                <td>
+                    <p id="badminton_price"></p>
+                </td>
+            </tr>
+
+
+            <!-- basketball -->
+            <tr>
+                <td>
+                    <input type="checkbox" id="basketball_check" name="basketball" value="basketball">
+                    <label for="basketball"> Basketball</label>
+                </td>
+                <td>
+                    <input type="radio" name="basketball_radio" value="100">
+                    <label>Low Quality - $100</label><br>
+                    <input type="radio" name="basketball_radio" value="200">
+                    <label>Medium Quality - $200</label><br>
+                    <input type="radio" name="basketball_radio" value="300">
+                    <label>High Quality - $300</label><br>
+                    <input type="radio" name="basketball_radio" value="0" checked="checked">
+                    <label>None</label>
+                </td>
+                <td>
+                    <select id="basketball_option">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+                <td>
+                    <p id="basketball_price"></p>
+                </td>
+            </tr>
+
+
+            <!-- football -->
+            <tr>
+                <td>
+                    <input type="checkbox" id="football_check" name="football" value="football">
+                    <label for="football"> Football</label>
+                </td>
+                <td>
+                    <input type="radio" name="football_radio" value="100">
+                    <label>Low Quality - $100</label><br>
+                    <input type="radio" name="football_radio" value="200">
+                    <label>Medium Quality - $200</label><br>
+                    <input type="radio" name="football_radio" value="300">
+                    <label>High Quality - $300</label><br>
+                    <input type="radio" name="football_radio" value="0" checked="checked">
+                    <label>None</label>
+                </td>
+                <td>
+                    <select id="football_option">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+                <td>
+                    <p id="football_price"></p>
+                </td>
+            </tr>
+
+
+            <!-- hockey -->
+            <tr>
+                <td>
+                    <input type="checkbox" id="hockey_check" name="hockey" value="hockey">
+                    <label for="hockey"> Hockey</label>
+                </td>
+                <td>
+                    <input type="radio" name="hockey_radio" value="100">
+                    <label>Low Quality - $100</label><br>
+                    <input type="radio" name="hockey_radio" value="200">
+                    <label>Medium Quality - $200</label><br>
+                    <input type="radio" name="hockey_radio" value="300">
+                    <label>High Quality - $300</label><br>
+                    <input type="radio" name="hockey_radio" value="0" checked="checked">
+                    <label>None</label>
+                </td>
+                <td>
+                    <select id="hockey_option">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+                <td>
+                    <p id="hockey_price"></p>
+                </td>
+            </tr>
+
+
+            <!-- tt -->
+            <tr>
+                <td>
+                    <input type="checkbox" id="tt_check" name="tt" value="tt">
+                    <label for="tt"> Table Tennis</label>
+                </td>
+                <td>
+                    <input type="radio" name="tt_radio" value="100">
+                    <label>Low Quality - $100</label><br>
+                    <input type="radio" name="tt_radio" value="200">
+                    <label>Medium Quality - $200</label><br>
+                    <input type="radio" name="tt_radio" value="300">
+                    <label>High Quality - $300</label><br>
+                    <input type="radio" name="tt_radio" value="0" checked="checked">
+                    <label>None</label>
+                </td>
+                <td>
+                    <select id="tt_option">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+                <td>
+                    <p id="tt_price"></p>
+                </td>
+            </tr>
+
+
+
+            <!-- total -->
+            <tr>
+                <td colspan="2">
+                    <label> Total Cost</label>
+                </td>
+                <td>
+                    <button id="btn-cal" onclick="caltotal()">Calculate</button>
+                </td>
+                <td>
+                    <p id="total_cost"></p>
+                    <p id="tax"></p>
+                    <p id="dis"></p>
+                    <p id="total_price"></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+
+    <!-- footer -->
+    <footer>
+        <h1>Sport Center</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quos eaque quae deleniti ut</p>
+        <img src="img/logo.png" alt="">
+
+        <div class="grid-footer">
+            <div class="grid-item-footer">
+                <p style="text-align: left; margin-top: 3em;">Copyright © Sport Center 2021</p>
+            </div>
+
+            <div class="grid-item-footer">
+                
+                <div class="social-media">
+                    <p id="follow">Follow us on</p>
+                    <ul>
+                        <li><a href="#"><img src="img/5365678_fb_facebook_facebook logo_icon.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/5296516_tweet_twitter_twitter logo_icon.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/5296503_inspiration_pin_pinned_pinterest_social network_icon.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/5296520_bubble_chat_mobile_whatsapp_whatsapp logo_icon.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="js/header.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

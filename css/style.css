@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+button{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: calc(0.3s);
+}
+
+
+/* header */
+header{
+    width: 100%;
+    position: fixed;
+    padding: 1em;
+    background-color: rgba(224, 224, 224, 0.527);
+}
+header nav{
+    padding: 0.5em;
+    /* background-color: rgba(224, 224, 224, 0.527); */
+}
+header nav ul{
+    text-align: center;
+    list-style: none;
+}
+header nav ul li{
+    text-align: center;
+    padding: 0 3em;
+    display: inline;
+}
+header nav ul li a{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+header nav ul li a:hover{
+    color: red;
+}
+
+
+
+/* parallax */
+.parallax {
+    /* The image used */
+    background-image: url("../img/different-sports-equipment.jpg");
+
+    /* Set a specific height */
+    min-height: 558px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.parallax h1{
+    text-align: center;
+    color: #fff;
+    font-size: 8em;
+    padding-top: 1.5em;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.parallax p{
+    text-align: center;
+    color: #fff;
+}
+
+
+/* background */
+.background-odd{
+    background-color: rgb(182, 182, 255);
+}
+.background-even{
+    background-color: rgb(210, 210, 255);
+}
+.background-even h1{
+    text-transform: uppercase;
+}
+.background-odd h1{
+    text-transform: uppercase;
+}
+
+/* Latest News & Events */
+.Latest-News-Events{
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em;
+}
+.Latest-News-Events h1,p{
+    margin-bottom: 0.5em;
+}
+.Latest-News-Events button{
+    margin-top: 1em;
+    background-color: #6c79f7;
+    border: none;
+    padding: 1.5em 2em;
+    font-size: 15px;
+}
+
+
+
+/* grid */
+.grid{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* border: 1px solid black; */
+    margin: 1em auto;
+}
+hr{
+    width: 80%;
+    margin: 0.2em auto;
+    border: #000 1px solid;
+    background-color: #000;
+}
+.grid-item{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 1em;
+    margin: auto;
+}
+
+.grid-item p{
+    text-align: left;
+    color: #000;
+}
+.grid-item img{
+    width: 35em;
+}
+.grid-item button{
+    padding: 1em;
+    border: none;
+    background-color: #6c79f7;
+    font-size: 15px;
+    margin: 1em auto;
+}
+.grid-item ul{
+    margin-top: 1em;
+    margin-left: 5em;
+    text-align: left;
+}
+.grid-item ul li{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+/* club-membership */
+.club-membership{
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em;
+}
+
+
+/* president-speech */
+.president-speech{
+    /* The image used */
+    background-image: url("/img/a.jpg");
+
+    /* Set a specific height */
+    min-height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding: 4em;
+}
+.president-speech h1,p{
+    color: #000;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 800;
+}
+.president-speech h1{
+    margin-bottom: 1em;
+}
+.text{
+    background-color: rgba(255, 255, 255, 0.432);
+    padding: 2em 1em;
+    text-align: center;
+    border-radius: 100px 0 100px 0;
+}
+
+
+/* footer */
+footer{
+    margin-top: 0;
+    padding: 2em;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+footer p{
+    color: #fff;
+}
+footer img{
+    width: 35em;
+}
+.grid-footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-item-footer{
+    padding: 1em;
+}
+.social-media{
+    width: 100%;
+}
+.social-media ul{
+    list-style: none;
+    float: right;
+    margin-right: 2em;
+}
+.social-media ul li{
+    display: inline;
+    padding: 0 5px;
+}
+.social-media ul li img{
+    width: 2em;
+}
+.social-media h3{
+    margin-left: 2em;
+    color: #0284a5;
+}
+#follow{
+    text-align: right;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+
+/* table */
+table {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* border-collapse: collapse; */
+    width: 95%;
+    margin: 1em auto;
+}
+
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    padding-left: 1em;
+    font-weight: 700;
+}
+
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+table tr:nth-child(odd){
+    background-color: #bbbbbb;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3f52f5;
+    color: white;
+    text-align: center;
+    width: 25%;
+}
+
+#total_price{
+    font-size: 25px;
+    color: red;
+}
+#btn-cal{
+    margin: auto;
+    padding: 1em;
+}
+
+
+
+form{
+    display: block;
+    border: #000 solid 1px;
+    padding: 2em;
+    width: 500px;
+    height: 480px;
+}
+form input,textarea{
+    display: block;
+    width: 100%;
+    margin: 0.5em auto;
+    padding: 2px;
+}
+form input{
+    height: 2em;
+}
+form textarea{
+    height: 15em;
+}
+form legend{
+    font-weight: 900;
+}
+
+
+.contact-info{
+    padding: 3em auto
+}
+.contact-info h2{
+    text-align: left;
+    font-size: 2em;
+    padding: 2em;
+    padding-bottom: 0;
+    padding-left: 0;
+}
